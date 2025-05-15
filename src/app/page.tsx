@@ -1,22 +1,4 @@
-import Hero from './components/Hero'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Activities from './components/Activities'
-
-export default function Home() {
-  return (
-    <main className="max-w-4xl mx-auto px-4 py-12 space-y-24">
-      <Hero />
-      <Experience />
-      <Projects />
-      <Activities />
-      <Contact />
-    </main>
-  )
-}
-
-/*import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -118,4 +100,4 @@ export default function Home() {
       </footer>
     </div>
   );
-}*/
+}
