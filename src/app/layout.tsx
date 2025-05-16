@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'My Personal Site',
-  description: 'Portfolio and personal profile of a computer science and engineering enthusiast.',
+  title: 'William Stone | Portfolio',
+  description: 'Resume-style personal site for William Stone',
 }
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-background text-text font-sans antialiased">{children}</body>
+      <body className="bg-background text-dark font-body antialiased">{children}</body>
     </html>
   )
 }

@@ -8,11 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#0EA5E9',     // Sky-500
-        background: '#F8FAFC',  // Gray-50
-        accent: '#38BDF8',      // Sky-400
-        highlight: '#F472B6',   // Pink-400
-        text: '#1E293B',        // Gray-900
+        primary: '#D8CA0A',
+        dark: '#000000',
+        light: '#F4F4F4',
+        background: '#FFFFFF',
+      },
+      fontFamily: {
+        heading: ['Coterie', 'Georgia', 'serif'],
+        body: ['Inter', 'Arial', 'sans-serif'],
       },
     },
   },
