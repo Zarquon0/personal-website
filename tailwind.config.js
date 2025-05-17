@@ -14,8 +14,9 @@ module.exports = {
         background: '#FFFFFF',
       },
       fontFamily: {
-        heading: ['Coterie', 'Georgia', 'serif'],
+        title: ['Coterie', 'Georgia', 'serif'],
         body: ['Fraunces', 'Inter', 'Arial', 'sans-serif'],
+        heading: ['Julius Sans One', 'Inter', 'sans-serif'],
       },
     },
   },
