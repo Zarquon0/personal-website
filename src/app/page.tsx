@@ -1,6 +1,6 @@
 import HeroSection from './components/HeroSection'
 import ExperienceSection from './components/ExperienceSection'
-import Projects from './components/Projects'
+import ProjectsSection from './components/ProjectsSection'
 import Contact from './components/Contact'
 import Activities from './components/Activities'
 import Gear from './components/Gear'
@@ -11,7 +11,7 @@ export default function Home() {
       <Gear />
       <HeroSection />
       <ExperienceSection />
-      <Projects />
+      <ProjectsSection />
       <Activities />
       <Contact />
     </main>

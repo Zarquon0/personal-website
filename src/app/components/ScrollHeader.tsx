@@ -9,7 +9,7 @@ export default function ScrollHeader({ text, colorClass, scrollYProgress }: { te
             className="absolute left-0 top-[50%] bg-primary h-[2.5rem] z-0"
             style={{ width: barWidth }}
           />
-          <h2 className={"relative text-5xl font-heading font-bold z-11" + colorClass}>{ text }</h2>
+          <h2 className={"relative text-5xl font-heading font-bold z-11 " + colorClass}>{ text }</h2>
         </div>
     )
 }
