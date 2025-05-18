@@ -3,8 +3,8 @@
 import { motion, useTransform } from 'framer-motion'
 
 export default function ProfileImage({ scrollYProgress }: { scrollYProgress: any }) {
-  const x = useTransform(scrollYProgress, [0, 1], ['-25vw', '0vw'])
-  const rotate = useTransform(scrollYProgress, [0, 1], ['-180deg', '0deg'])
+  const x = useTransform(scrollYProgress, [0, 1], ['-40vw', '0vw'])
+  const rotate = useTransform(scrollYProgress, [0, 1], ['-270deg', '0deg'])
 
   return (
     <motion.div

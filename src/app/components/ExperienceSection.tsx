@@ -31,7 +31,7 @@ export default function ExperienceSection() {
             className="absolute left-0 top-[50%] bg-primary h-[2.5rem] z-0"
             style={{ width: barHeight }}
           />
-          <h2 className="relative text-5xl font-heading font-bold text-dark z-11">Experiences</h2>
+          <h2 className="relative text-5xl font-heading font-bold text-dark z-11">Experience</h2>
         </div>
         {/* Job Cards */}
         <div className="flex items-center justify-center h-full space-x-8 px-4 z-1">
