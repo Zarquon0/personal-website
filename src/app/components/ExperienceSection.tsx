@@ -26,27 +26,36 @@ export default function ExperienceSection() {
         <div className="flex items-center justify-center h-full space-x-8 px-4 z-1">
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
-              title="Software Engineer"
-              company="Thing"
-              dates="1"
+              title="Sunlab Consultant"
+              company="Brown CS Department"
+              dates="09/24-Now"
               description="Worked on frontend and backend systems."
               imageUrl="/brown-cs-icon.png"
             />
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
-              title="Research Intern"
-              company="Thing"
-              dates="1"
+              title="Research Assistant"
+              company="ACT Lab"
+              dates="01/24-03/24"
               description="Explored AI ethics and policy frameworks."
+              imageUrl="/act-icon.png"
+            />
+          </div>
+          <div className="relative p-1 bg-light rounded-[1.7rem]">
+            <JobCard
+              title="Tent Staff"
+              company="Keewaydin"
+              dates="06/24-08/24"
+              description="Helped students learn systems programming."
               imageUrl="/keewaydin-icon.jpg"
             />
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
-              title="Teaching Assistant"
-              company="Thing"
-              dates="1"
+              title="Mapping Intern"
+              company="ATL City Council D5 Office"
+              dates="06/22-08/22"
               description="Helped students learn systems programming."
               imageUrl="/district-five-icon.png"
             />

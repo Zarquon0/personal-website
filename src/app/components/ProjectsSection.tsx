@@ -26,7 +26,7 @@ export default function ExperienceSection() {
         <div className="flex items-center justify-center h-full space-x-8 px-4 z-1">
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
-              title="Software Engineer"
+              title="Yell"
               company="Thing"
               dates="1"
               description="Worked on frontend and backend systems."
@@ -35,7 +35,7 @@ export default function ExperienceSection() {
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
-              title="Research Intern"
+              title="Simply Search"
               company="Thing"
               dates="1"
               description="Explored AI ethics and policy frameworks."
@@ -44,7 +44,7 @@ export default function ExperienceSection() {
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
-              title="Teaching Assistant"
+              title="BOC Website"
               company="Thing"
               dates="1"
               description="Helped students learn systems programming."
@@ -53,7 +53,7 @@ export default function ExperienceSection() {
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
-              title="Teaching Assistant"
+              title="Hnefatafl "
               company="Thing"
               dates="1"
               description="Helped students learn systems programming."
