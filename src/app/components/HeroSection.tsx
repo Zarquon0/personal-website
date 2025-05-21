@@ -15,7 +15,7 @@ export default function HeroSection() {
   })
 
   return (
-    <section ref={containerRef} className="relative h-[200vh]">
+    <section id="hero" ref={containerRef} className="relative h-[200vh]">
       <div className="sticky top-0 h-screen flex">
         <LeftPanel scrollYProgress={scrollYProgress} />
         <div className="relative w-1/2 bg-light">

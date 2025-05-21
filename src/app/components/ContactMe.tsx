@@ -1,22 +1,10 @@
 'use client'
 
-import { motion, useAnimation } from 'framer-motion'
-import { useState, useEffect } from 'react'
+import { motion } from 'framer-motion'
+import { useState } from 'react'
 
 export default function ContactMe() {
   const [hovered, setHovered] = useState(false)
-  // const controls = useAnimation()
-
-  // useEffect(() => {
-  //   if (hovered) {
-  //     controls.start({ opacity: 1, transition: { delay: 0.1, ease: 'easeOut' } }).then(()=>{
-  //       controls.start({ scale: [1, 1.1, 1], transition: { duration: 5, repeat: Infinity } })
-  //     })
-  //   } else {
-  //     // When leaving, skip animation and jump back to default
-  //     controls.set({ scale: 1, opacity: 0 })
-  //   }
-  // }, [hovered, controls])
 
   const bgSentence = (
     <motion.div

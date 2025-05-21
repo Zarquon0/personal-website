@@ -2,6 +2,7 @@ import HeroSection from './components/HeroSection'
 import ExperienceSection from './components/ExperienceSection'
 import ProjectsSection from './components/ProjectsSection'
 import FinalSection from './components/FinalSection'
+import BackToTop from './components/BackToTop'
 import Gear from './components/Gear'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <ExperienceSection />
       <ProjectsSection />
       <FinalSection />
+      <BackToTop />
     </main>
   )
 }
