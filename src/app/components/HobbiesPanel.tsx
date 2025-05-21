@@ -9,7 +9,7 @@ export default function HobbiesPanel({ scrollYProgress }:{ scrollYProgress: any 
     <div className="h-full p-8 flex flex-col justify-between relative">
       {/* Header */}
       <ScrollHeader text="Hobbies" colorClass="text-light" scrollYProgress={scrollYProgress}/>
-      <div className="mt-24">
+      <div className="mt-32">
         {/* Hobby Display */}
         <div className="mr-16">
             <HobbyDisplay />

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const hobbies = [
   { name: 'Climbing', image: '/district-five-icon.png' },
@@ -12,9 +12,28 @@ const hobbies = [
 
 export default function HobbyDisplay() {
   const [activeHobby, setActiveHobby] = useState(hobbies[0]);
+  const [hovered, setHovered] = useState(false)
+
+  useEffect(() => {
+    if (hovered) return // stop cycling when hovered
+
+    const interval = setInterval(() => {
+      setActiveHobby((current) => {
+        const currIdx = hobbies.findIndex((h) => h.name === current.name)
+        const nextIdx = (currIdx + 1) % hobbies.length
+        return hobbies[nextIdx]
+      })
+    }, 4000)
+
+    return () => clearInterval(interval) // cleanup when hovered changes
+  }, [hovered])
 
   return (
-    <div className="flex w-full h-64">
+    <div 
+    onMouseEnter={() => setHovered(true)}
+    onMouseLeave={() => setHovered(false)}
+    className="flex w-full h-64"
+    >
       {/* Hobby List */}
       <ul className="w-1/3 flex flex-col space-y-4">
         {hobbies.map((hobby) => {
@@ -23,7 +42,7 @@ export default function HobbyDisplay() {
             <li
                 key={hobby.name}
                 onMouseEnter={() => setActiveHobby(hobby)}
-                className="relative cursor-pointer text-2xl"
+                className="relative cursor-pointer text-2xl pl-2"
             >
                 {/* Sliding gold background */}
                 <span

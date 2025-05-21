@@ -20,11 +20,12 @@ export default function JobCard({
 }) {
   const [hovered, setHovered] = useState(false)
   const widthHeight = (horizontal ? " w-80 h-56" : " w-64 h-80")
+  const expandedWidthHeight = (horizontal ? " w-[28rem] h-68" : " w-[28rem] h-[28rem]")
   return (
     <div
       className={clsx(
         'group relative bg-cover bg-center rounded-3xl overflow-hidden transition-all duration-500 border-4 border-dark' + widthHeight,
-        hovered && 'w-[28rem] h-[28rem] z-10 shadow-[0_0_25px_5px_#D8CA0A]'
+        hovered && ('z-10 shadow-[0_0_25px_5px_#D8CA0A]' + expandedWidthHeight)
       )}
       style={{ backgroundImage: `url(${imageUrl})` }}
       onMouseEnter={() => setHovered(true)}
