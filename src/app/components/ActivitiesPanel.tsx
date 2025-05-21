@@ -7,7 +7,7 @@ export default function ActivitiesPanel({ scrollYProgress }: { scrollYProgress: 
   return (
     <div className="h-full p-8 flex flex-col justify-start">
       {/* Header */}
-      <ScrollHeader text="Activities" colorClass="text-dark" scrollYProgress={scrollYProgress}/>
+      <ScrollHeader text="Activities" colorClass="text-dark" scrollYProgress={scrollYProgress} maxWidth={240}/>
 
       {/* Job Cards */}
       <div className="absolute bottom-0 left-0 h-[100%] flex items-center justify-center pt-16 pb-4 z-1 space-y-8 w-full flex-col overflow-hidden">
