@@ -35,7 +35,7 @@ export default function ContactMe() {
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="relative w-full h-32 flex items-center justify-center overflow-hidden"
+      className="relative w-full h-28 flex items-center justify-center overflow-hidden mb-4"
     >
       { hovered ? contButton : bgSentence }
     </div>

@@ -3,10 +3,10 @@
 import { useState, useEffect } from 'react';
 
 const hobbies = [
-  { name: 'Climbing', image: '/district-five-icon.png' },
-  { name: 'Piano', image: '/act-icon.png' },
-  { name: '3D Printing & Modeling', image: '/keewaydin-icon.jpg' },
-  { name: 'Board Games', image: '/keewaydin-icon.jpg' },
+  { name: 'Climbing', image: '/climbing.jpeg', cap: "Trying not to cheesegrater on a dicey slab" },
+  { name: 'Piano', image: '/act-icon.png', cap: "Intense mood lighting for Rachmaninoff" },
+  { name: '3D Printing & Modeling', image: '/puzzle-box.jpeg', cap: "Components of a 3D printed puzzle box" },
+  { name: 'Board Games', image: '/board-games.jpeg', cap: "The board game collection's starting to overflow" },
   // Add more hobbies as needed
 ];
 
@@ -57,11 +57,16 @@ export default function HobbyDisplay() {
       </ul>
       {/* Hobby Image */}
       <div className="w-2/3 flex items-center justify-center">
-        <img
+        <div className="relative aspect-square h-full border-4 border-primary rounded-2xl overflow-hidden">
+          <img
             src={activeHobby.image}
             alt={activeHobby.name}
-            className="h-full object-cover rounded-2xl border-4 border-primary aspect-square"
-        />
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute bottom-0 left-0 h-1/4 w-full bg-black bg-opacity-80 text-white text-sm p-3 overflow-scroll">
+            <p className="text-white italic text-sm">{activeHobby.cap}</p>
+          </div>
+        </div>
       </div>
     </div>
   );
