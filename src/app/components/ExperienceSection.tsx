@@ -29,17 +29,19 @@ export default function ExperienceSection() {
               title="Sunlab Consultant"
               company="Brown CS Department"
               dates="09/24-Now"
-              description="Worked on frontend and backend systems."
+              description="Serve as a steward of and liaison to Brown's three computer labs (most notably, the namesake Sunlab) and their 100+ computers. Chief responsibilities include troubleshooting and resolving any issues that come up with the labs' computers and providing technical advice and assistance to the labs' users."
               imageUrl="/brown-cs-icon.png"
+              linkUrl="https://cs.brown.edu/degrees/undergrad/jobs/consult/"
             />
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
               title="Research Assistant"
               company="ACT Lab"
-              dates="01/24-03/24"
-              description="Explored AI ethics and policy frameworks."
+              dates="01/25-03/25"
+              description="Assisted in research on a project involving combining the sensing capabilities of a LIDAR scanner and a camera-equipped overhead drone with the built-in cameras of a Boston Dynamics Spot robot to provide enhanced perception. Specifically, used Docker and ROS on an NVIDIA Jetson Nano to set up and containerize project components (namely, Gazebo simulators and ROS nodes for communication with the drone's camera)."
               imageUrl="/act-icon.png"
+              linkUrl="https://act.usc.edu/"
             />
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
@@ -47,8 +49,9 @@ export default function ExperienceSection() {
               title="Tent Staff"
               company="Keewaydin"
               dates="06/24-08/24"
-              description="Helped students learn systems programming."
+              description="Lived with and provided instruction and support to the Waramaug Grove (10-12 age group) of Keewaydin's sleep-away summer camp. Responsibilities included staffing a tent of five campers, leading two instructional activities a day, planning and executing one ~5 day canoeing/hiking trip each month, and most importantly, providing an engaging and guiding presence to the campers."
               imageUrl="/keewaydin-icon.jpg"
+              linkUrl="https://keewaydin.org/dunmore/dunmore-overview/"
             />
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
@@ -56,8 +59,9 @@ export default function ExperienceSection() {
               title="Mapping Intern"
               company="ATL City Council D5 Office"
               dates="06/22-08/22"
-              description="Helped students learn systems programming."
+              description="Learned and utilized ArcGIS to create a map of areas of old growth canopy (trees aged 30+ years notable for providing great environmental benefits) in Atlanta's fifth district. The resulting map would later be used to inform policy decisions regarding canopy coverage in the district."
               imageUrl="/district-five-icon.png"
+              linkUrl="https://www.district5atl.com/"
             />
           </div>
         </div>
