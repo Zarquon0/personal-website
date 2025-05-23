@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 const hobbies = [
   { name: 'Climbing', image: '/climbing.jpeg', cap: "Trying not to cheesegrater on a dicey slab" },
-  { name: 'Piano', image: '/act-icon.png', cap: "Intense mood lighting for Rachmaninoff" },
+  { name: 'Piano', image: '/rach.jpg', cap: "Intense mood lighting for Rachmaninoff" },
   { name: '3D Printing & Modeling', image: '/puzzle-box.jpeg', cap: "Components of a 3D printed puzzle box" },
   { name: 'Board Games', image: '/board-games.jpeg', cap: "The board game collection's starting to overflow" },
   // Add more hobbies as needed

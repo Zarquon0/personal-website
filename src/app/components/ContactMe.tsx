@@ -20,7 +20,7 @@ export default function ContactMe() {
   )
   const contButton = (
     <motion.a
-      href="mailto:your.email@example.com"
+      href="mailto:william_l_stone@brown.edu"
       target="_blank"
       initial={{ y: -50 }}
       animate={{ y: 0 }}

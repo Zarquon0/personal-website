@@ -8,12 +8,12 @@ export default function NameReveal() {
       
       {/* First Name */}
       <div className="relative h-1/2 flex items-center justify-start">
-        <h1 className="text-8xl font-title text-dark relative z-10 pl-20">William</h1>
+        <h1 className="text-8xl font-title text-dark relative z-10 pl-[10%]">William</h1>
          <motion.div
           variants={{
             initial: { width: 0 },
-            expanded: { width: '70%' },
-            detached: { width: '70%', left: '5%' },
+            expanded: { width: '30rem', },
+            detached: { width: '30rem', left: '5%'},
           }}
           initial="initial"
           animate="detached"
@@ -24,16 +24,16 @@ export default function NameReveal() {
           }}
           className="absolute top-[48%] transform -translate-y-1/2 bg-primary z-0 h-24"
         />
-      </div>
+      </div> 
 
       {/* Last Name */}
       <div className="relative h-1/2 flex items-center justify-end">
-        <h1 className="text-8xl font-title text-dark relative z-10 pr-20">Stone</h1>
+        <h1 className="text-8xl font-title text-dark relative z-10 pr-[10%]">Stone</h1>
         <motion.div
           variants={{
             initial: { width: 0 },
-            expanded: { width: '56%' },
-            detached: { width: '56%', right: '5%' },
+            expanded: { width: '23rem' },
+            detached: { width: '23rem', right: '5%' },
           }}
           initial="initial"
           animate="detached"
