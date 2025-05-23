@@ -2,8 +2,9 @@
 
 import NameReveal from './NameReveal'
 import ProfileImage from './ProfileImage'
+import { MotionValue } from "framer-motion";
 
-export default function LeftPanel({ scrollYProgress }: { scrollYProgress: any }) {
+export default function LeftPanel({ scrollYProgress }: { scrollYProgress: MotionValue<number> }) {
   return (
     <div className="w-1/2 bg-dark flex flex-col">
       <div className="h-1/3 flex items-center justify-center">

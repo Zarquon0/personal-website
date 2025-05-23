@@ -3,8 +3,9 @@
 import HobbyDisplay from './HobbyDisplay';
 import ScrollHeader from './ScrollHeader';
 import ContactMe from './ContactMe';
+import { MotionValue } from "framer-motion";
 
-export default function HobbiesPanel({ scrollYProgress }:{ scrollYProgress: any }) {
+export default function HobbiesPanel({ scrollYProgress }:{ scrollYProgress: MotionValue<number> }) {
   return (
     <div className="h-full p-8 flex flex-col justify-between relative">
       {/* Header */}

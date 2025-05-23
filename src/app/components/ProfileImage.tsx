@@ -1,8 +1,8 @@
 'use client'
 
-import { motion, useTransform } from 'framer-motion'
+import { motion, useTransform, MotionValue } from 'framer-motion'
 
-export default function ProfileImage({ scrollYProgress }: { scrollYProgress: any }) {
+export default function ProfileImage({ scrollYProgress }: { scrollYProgress: MotionValue<number> }) {
   const x = useTransform(scrollYProgress, [0, 1], ['-40vw', '0vw'])
   const rotate = useTransform(scrollYProgress, [0, 1], ['-270deg', '0deg'])
 

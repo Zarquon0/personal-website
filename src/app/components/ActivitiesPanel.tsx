@@ -2,8 +2,9 @@
 
 import ScrollHeader from "./ScrollHeader";
 import JobCard from "./JobCard";
+import { MotionValue } from "framer-motion";
 
-export default function ActivitiesPanel({ scrollYProgress }: { scrollYProgress: any }) {
+export default function ActivitiesPanel({ scrollYProgress }: { scrollYProgress: MotionValue<number> }) {
   return (
     <div className="h-full p-8 flex flex-col justify-start">
       {/* Header */}

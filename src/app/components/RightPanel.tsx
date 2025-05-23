@@ -19,7 +19,7 @@ export default function RightPanel() {
 
         {/* Scroll Prompt */}
         <p className="text-sm font-body text-gray-500 mt-8 max-w-lg">
-          See what I've been up to ↓
+          See what I&apos;ve been up to ↓
         </p>
       </div>
     </div>

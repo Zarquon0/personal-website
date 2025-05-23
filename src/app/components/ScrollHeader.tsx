@@ -1,6 +1,6 @@
-import { useTransform, motion, number } from 'framer-motion'
+import { useTransform, motion, MotionValue } from 'framer-motion'
 
-export default function ScrollHeader({ text, colorClass, scrollYProgress, maxWidth=-1 }: { text: string, colorClass: string, scrollYProgress: any, maxWidth?: number }) {
+export default function ScrollHeader({ text, colorClass, scrollYProgress, maxWidth=-1 }: { text: string, colorClass: string, scrollYProgress: MotionValue<number>, maxWidth?: number }) {
     if (maxWidth == -1) { maxWidth = text.length * 27 }
     const barWidth = useTransform(scrollYProgress, [0, 1], [0, maxWidth])
     return (
