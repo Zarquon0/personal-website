@@ -23,8 +23,28 @@ export default function ExperienceSection() {
         <ScrollHeader text="Experience" colorClass="text-dark" scrollYProgress={scrollYProgress}/>
         
         {/* Job Cards */}
-        <div className="flex items-center justify-center h-full space-x-8 px-4 z-1">
+        <div className="flex items-center justify-center h-full space-x-8 px-4 z-1 overflow-x-scroll">
           <div className="relative p-1 bg-light rounded-[1.7rem]">
+            <JobCard
+              title="Researcher"
+              company="ATLAS Group"
+              dates="06/25-Now"
+              description="Research topics at the intersection of systems and PL (the study of programming languages). Currently, under a postdoc's guidance, researching a method of monitoring pipelines in shell scripts for unexpected behavior via an efficient Rust 'stream monitor' and a special 'shell compiler' built in Python, providing benefits in both security and program correctness. We hope to publish a paper on this at a conference in late November."
+              imageUrl="/atlas-icon.png"
+              linkUrl="https://atlas.cs.brown.edu/"
+            />
+          </div>
+          <div className="relative p-1 bg-light rounded-[1.7rem]">
+            <JobCard
+              title="Lead TA"
+              company="Brown Engineering Dept."
+              dates="05/25-Now"
+              description="Serve as the right hand assistant to the primary instructors of Brown's ENGN0510 E&M course. Worked as the sole TA with course staff over the summer to prepare administrative resources, manage further TA hiring, and design two original practice exams for the ~160 student class. Currently, I manage the class's online dicussion board, keep all online resources up to date, and lead instructional/problem solving sessions for students."
+              imageUrl="/engineering-icon.png"
+              linkUrl="https://engineering.brown.edu/"
+            />
+          </div>
+          {/* <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
               title="Sunlab Consultant"
               company="Brown CS Department"
@@ -33,7 +53,7 @@ export default function ExperienceSection() {
               imageUrl="/brown-cs-icon.png"
               linkUrl="https://cs.brown.edu/degrees/undergrad/jobs/consult/"
             />
-          </div>
+          </div> */}
           <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
               title="Research Assistant"
@@ -54,7 +74,7 @@ export default function ExperienceSection() {
               linkUrl="https://keewaydin.org/dunmore/dunmore-overview/"
             />
           </div>
-          <div className="relative p-1 bg-light rounded-[1.7rem]">
+          {/* <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
               title="Mapping Intern"
               company="ATL City Council D5 Office"
@@ -63,7 +83,7 @@ export default function ExperienceSection() {
               imageUrl="/district-five-icon.png"
               linkUrl="https://www.district5atl.com/"
             />
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
