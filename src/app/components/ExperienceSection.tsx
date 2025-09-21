@@ -58,7 +58,7 @@ export default function ExperienceSection() {
             <JobCard
               title="Research Assistant"
               company="ACT Lab"
-              dates="01/25-03/25"
+              dates="01/25-04/25"
               description="Assisted in research on a project involving combining the sensing capabilities of a LIDAR scanner and a camera-equipped overhead drone with the built-in cameras of a Boston Dynamics Spot robot to provide enhanced perception. Specifically, used Docker and ROS on an NVIDIA Jetson Nano to set up and containerize project components (namely, Gazebo simulators and ROS nodes for communication with the drone's camera)."
               imageUrl="/act-icon.png"
               linkUrl="https://act.usc.edu/"
