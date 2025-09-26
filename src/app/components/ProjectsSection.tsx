@@ -48,7 +48,7 @@ export default function ExperienceSection() {
             <JobCard
               title="BOC Website"
               company="Project Manager"
-              dates="09/24-Now"
+              dates="09/24-09/25"
               description="A website for the Brown Outing Club designed as an upgrade from the club's current static site to a platform where trips can be created, planned, signed up for, and run all in one place. The site uses a modern Next/React + Tailwind frontend stack and an Express + MariaDB backend (to be run on a Google Cloud Compute VM) supplemented by Google Firestore for larger files. The site is not quite ready for deployment yet, but we hope to launch it this coming fall semester!"
               imageUrl="/boc-website.png"
               linkUrl="https://github.com/orgs/fullstackatbrown/teams/brown-outing-club/repositories"

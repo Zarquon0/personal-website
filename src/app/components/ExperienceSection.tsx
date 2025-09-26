@@ -29,9 +29,29 @@ export default function ExperienceSection() {
               title="Researcher"
               company="ATLAS Group"
               dates="06/25-Now"
-              description="Research topics at the intersection of systems and PL (the study of programming languages). Currently, under a postdoc's guidance, researching a method of monitoring pipelines in shell scripts for unexpected behavior via an efficient Rust 'stream monitor' and a special 'shell compiler' built in Python, providing benefits in both security and program correctness. We hope to publish a paper on this at a conference in late November."
+              description="Researching topics at the intersection of systems and PL (the study of programming languages). Currently, under a postdoc's guidance, researching a method of monitoring pipelines in shell scripts for unexpected behavior via an efficient Rust 'stream monitor' and a special 'shell compiler' built in Python, providing benefits in both security and program correctness. We hope to publish a paper on this at a conference in late November."
               imageUrl="/atlas-icon.png"
               linkUrl="https://atlas.cs.brown.edu/"
+            />
+          </div>
+          <div className="shrink-0">
+            <JobCard
+              title="Project Manager"
+              company="Fullstack@Brown"
+              dates="09/24-06/25"
+              description="Led a group of 13 developers and designers in the creation of a new online platform for the BOC. Duties as PM included coordinating and guiding weekly meetings, leading presentations and mini-lessons, and conducting informal code reviews. The culmination of this year long stint was a fully featured web appication currently being geared up to serve a 2000+ member community and a cohort of 13 newly experienced and skilled front end developers/designers."
+              imageUrl="/fsab-icon.png"
+              linkUrl="https://www.fullstackatbrown.com/"
+            />
+          </div>
+          <div className="relative p-1 bg-light rounded-[1.7rem]">
+            <JobCard
+              title="Research Assistant"
+              company="ACT Lab"
+              dates="01/25-04/25"
+              description="Assisted in research on the topic of enhancing the perception of a grounded robot via integrating data provided by a mounted LIDAR data and overhead drone imagery. Constructed the ROS infrastructure allowing the drone to broadcast imagery to the ground (Spot) robot and built containerized environments for simulating our system with Docker and Gazebo."
+              imageUrl="/act-icon.png"
+              linkUrl="https://act.usc.edu/"
             />
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
@@ -39,7 +59,7 @@ export default function ExperienceSection() {
               title="Lead TA"
               company="Brown Engineering Dept."
               dates="05/25-Now"
-              description="Serve as the right hand assistant to the primary instructors of Brown's ENGN0510 E&M course. Worked as the sole TA with course staff over the summer to prepare administrative resources, manage further TA hiring, and design two original practice exams for the ~160 student class. Currently, I manage the class's online dicussion board, keep all online resources up to date, and lead instructional/problem solving sessions for students."
+              description="Serving as the right hand assistant to the primary instructors of Brown's ENGN0510 E&M course. Worked as the sole TA with course staff over the summer to prepare administrative resources, manage further TA hiring, and design two original practice exams for the ~160 student class. Currently, I manage the class's online dicussion board, keep all online resources up to date, and lead instructional/problem solving sessions for students."
               imageUrl="/engineering-icon.png"
               linkUrl="https://engineering.brown.edu/"
             />
@@ -54,17 +74,7 @@ export default function ExperienceSection() {
               linkUrl="https://cs.brown.edu/degrees/undergrad/jobs/consult/"
             />
           </div> */}
-          <div className="relative p-1 bg-light rounded-[1.7rem]">
-            <JobCard
-              title="Research Assistant"
-              company="ACT Lab"
-              dates="01/25-04/25"
-              description="Assisted in research on a project involving combining the sensing capabilities of a LIDAR scanner and a camera-equipped overhead drone with the built-in cameras of a Boston Dynamics Spot robot to provide enhanced perception. Specifically, used Docker and ROS on an NVIDIA Jetson Nano to set up and containerize project components (namely, Gazebo simulators and ROS nodes for communication with the drone's camera)."
-              imageUrl="/act-icon.png"
-              linkUrl="https://act.usc.edu/"
-            />
-          </div>
-          <div className="relative p-1 bg-light rounded-[1.7rem]">
+          {/* <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
               title="Tent Staff"
               company="Keewaydin"
@@ -73,7 +83,7 @@ export default function ExperienceSection() {
               imageUrl="/keewaydin-icon.jpg"
               linkUrl="https://keewaydin.org/dunmore/dunmore-overview/"
             />
-          </div>
+          </div> */}
           {/* <div className="relative p-1 bg-light rounded-[1.7rem]">
             <JobCard
               title="Mapping Intern"
