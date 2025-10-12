@@ -29,7 +29,7 @@ export default function ExperienceSection() {
               title="Researcher"
               company="ATLAS Group"
               dates="06/25-Now"
-              description="Researching topics at the intersection of systems and PL (the study of programming languages). Currently, under a postdoc's guidance, researching a method of monitoring pipelines in shell scripts for unexpected behavior via an efficient Rust 'stream monitor' and a special 'shell compiler' built in Python, providing benefits in both security and program correctness. We hope to publish a paper on this at a conference in late November."
+              description="Researching topics at the intersection of systems and PL (the study of programming languages). Currently, researching a method of monitoring pipelines in shell scripts for unexpected behavior via an efficient Rust 'stream monitor' and a special 'shell compiler' built in Python, providing benefits in both security and program correctness. We hope to publish this research at a conference in late November."
               imageUrl="/atlas-icon.png"
               linkUrl="https://atlas.cs.brown.edu/"
             />
@@ -59,7 +59,7 @@ export default function ExperienceSection() {
               title="Lead TA"
               company="Brown Engineering Dept."
               dates="05/25-Now"
-              description="Serving as the right hand assistant to the primary instructors of Brown's ENGN0510 E&M course. Worked as the sole TA with course staff over the summer to prepare administrative resources, manage further TA hiring, and design two original practice exams for the ~160 student class. Currently, I manage the class's online dicussion board, keep all online resources up to date, and lead instructional/problem solving sessions for students."
+              description="Serving as the right hand assistant to the primary instructors of Brown's ENGN0510 E&M course. Worked as the sole TA with course staff over the summer to prepare administrative documents, manage further TA hiring, and design new course resources for the ~160 student class. Currently, I help manage the class's online dicussion board, keep all online resources up to date, and lead instructional/problem solving sessions for students."
               imageUrl="/engineering-icon.png"
               linkUrl="https://engineering.brown.edu/"
             />

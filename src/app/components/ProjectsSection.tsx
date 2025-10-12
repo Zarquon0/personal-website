@@ -49,9 +49,9 @@ export default function ExperienceSection() {
               title="BOC Website"
               company="Project Manager"
               dates="09/24-09/25"
-              description="A website for the Brown Outing Club designed as an upgrade from the club's current static site to a platform where trips can be created, planned, signed up for, and run all in one place. The site uses a modern Next/React + Tailwind frontend stack and an Express + MariaDB backend (to be run on a Google Cloud Compute VM) supplemented by Google Firestore for larger files. The site is not quite ready for deployment yet, but we hope to launch it this coming fall semester!"
+              description="A website for the Brown Outing Club designed as an upgrade from the club's current static site to a platform where trips can be created, planned, signed up for, and run all in one place. The site uses a modern Next/React + Tailwind frontend stack and an Express + MariaDB backend (running on a Google Cloud Compute VM) supplemented by Google Firestore for larger files. The site is currently deployed on a beta URL (viewable by clicking this box) while we test its capabilities in preparation for full integration this Spring."
               imageUrl="/boc-website.png"
-              linkUrl="https://github.com/orgs/fullstackatbrown/teams/brown-outing-club/repositories"
+              linkUrl="https://beta.brownoutingclub.com"
             />
           </div>
           <div className="relative p-1 bg-light rounded-[1.7rem]">
@@ -59,7 +59,7 @@ export default function ExperienceSection() {
               title="IP/TCP"
               company="Pair Project"
               dates="09/24-11/24"
-              description="A complete RFC compliant implementation of TCP/IP in Rust. UDP connections between localhost ports stand in for virtual link layer connections between virtual hosts and routers able to communicate with each other over fully featured TCP sockets through a simple REPL interface. While not original in concept like all other projects here, the project's implementation was stencil-less and thus, entirely original in that way."
+              description="A complete RFC compliant implementation of TCP in Rust. UDP connections between localhost ports stand in for virtual link layer connections between virtual hosts and routers able to communicate with each other over fully featured TCP sockets through a simple REPL interface. Implementing TCP in an accurate and complete manner involved implementing all layers of the network stack (down to the link layer), including implementing IP to build TCP on top of and RIP for router discovery."
               imageUrl="/tcp-wireshark.png"
               linkUrl="https://github.com/spoonmilk/tcp"
             />
